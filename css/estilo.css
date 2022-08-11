@@ -167,7 +167,8 @@ ul {
     font-size: 1.5em;
   }
   .curiosidade {
-    width: 180px;
+    width: 125px;
+    margin: 5px;
   }
 
   #rodape div {
@@ -191,7 +192,7 @@ ul {
     font-size: 1.7em;
   }
   img.curiosidade {
-    margin: 0 auto;
+    margin: 0 15px;
     width: 180px;
   }
 
