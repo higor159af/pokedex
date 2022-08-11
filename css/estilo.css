@@ -1,0 +1,114 @@
+body,
+html{
+  height: 100%;
+}
+
+body {
+  background: url(../img/fundo.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+/* cabecalho */
+
+#cabecalho a {
+  color: #000;
+  text-transform: uppercase;
+}
+
+#cabecalho a:hover {
+  color: #fff;
+}
+
+.navbar-transparente {
+  background: rgba(255, 187, 0, 1);
+}
+
+/* corpo */
+
+.carousel-item {
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.capa {
+  text-align: center;
+}
+
+.capa img {
+  width: 60%;
+}
+
+#home .carousel-control-next,
+#home .carousel-control-prev,
+.home .carousel-control-next,
+.home .carousel-control-prev {
+  width: 5%;
+}
+
+.home{
+  padding-top: 50px;
+  margin-top: 10px;
+}
+.home ul {
+  display: inline-block;
+  color: rgb(238, 255, 0);
+}
+.home li span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+
+.agua {
+  background: rgb(0, 60, 255);
+}
+
+.fogo{
+  background: rgb(250, 112, 0);
+}
+
+.grama{
+  background: rgb(4, 196, 4);
+}
+
+.fogo, .agua, .grama{
+  padding-bottom: 30px;
+}
+
+.detalhes{
+  background: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  margin: 15px;
+}
+
+.detalhes h1{
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+
+.detalhes h2{
+  background: rgba(255, 187, 0, 1);
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 1.2em;
+
+}
+
+.detalhes p{
+  text-align: justify;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px;
+}
