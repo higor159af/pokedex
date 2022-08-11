@@ -1,5 +1,5 @@
 body,
-html{
+html {
   height: 100%;
 }
 
@@ -54,7 +54,7 @@ ul {
   width: 5%;
 }
 
-.home{
+.home {
   padding-top: 50px;
   margin-top: 10px;
 }
@@ -68,45 +68,64 @@ ul {
   font-size: 1.3em;
 }
 
-
 .agua {
   background: rgb(0, 60, 255);
 }
 
-.fogo{
+.fogo {
   background: rgb(250, 112, 0);
 }
 
-.grama{
+.grama {
   background: rgb(4, 196, 4);
 }
 
-.fogo, .agua, .grama{
+.eletrico {
+  background: rgb(251, 255, 0);
+}
+
+.fogo,
+.agua,
+.grama,
+.eletrico {
   padding-bottom: 30px;
 }
 
-.detalhes{
+.eletrico h1,
+.eletrico h2 {
+  color: #000;
+}
+
+.eletrico h4 {
+  color: rgb(255, 0, 0);
+}
+
+.eletrico span p {
+  color: #000;
+}
+
+.detalhes {
   background: rgba(255, 255, 255, 0.85);
   padding: 10px;
   margin: 15px;
 }
 
-.detalhes h1{
+.detalhes h1 {
   font-weight: 900;
   color: rgb(0, 0, 0);
+  font-family:  Helvetica, Arial, sans-serif;
 }
 
-.detalhes h2{
+.detalhes h2 {
   background: rgba(255, 187, 0, 1);
   padding: 10px;
   margin-top: 10px;
   color: #fff;
   border-radius: 15px;
   font-size: 1.2em;
-
 }
 
-.detalhes p{
+.detalhes p {
   text-align: justify;
   font-size: 1em;
   font-weight: 600;
