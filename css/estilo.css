@@ -135,22 +135,116 @@ ul {
 .curiosidade {
   float: right;
   margin: 0 7px;
+  width: 150px;
 }
 
 /* rodape */
 
-#rodape{
+#rodape {
   background: rgb(0, 60, 255);
   padding: 10px;
+}
+
+#rodape a {
   color: #fff;
 }
 
-#rodape img{
-transform: rotatey(180deg);
+#rodape img {
+  transform: rotatey(180deg);
 }
 
-#rodape i{
-  margin: 0 10px; 
+#rodape i {
+  margin: 0 10px;
   font-size: 2em;
 }
 
+/* // Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+  .home {
+    margin-top: 50px;
+  }
+  .detalhes h1 {
+    font-size: 1.5em;
+  }
+  .curiosidade {
+    width: 180px;
+  }
+
+  #rodape div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+/* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home {
+    margin-top: 50px;
+  }
+
+  .home ul {
+    width: 40%;
+  }
+
+  .detalhes h1 {
+    font-size: 1.7em;
+  }
+  img.curiosidade {
+    margin: 0 auto;
+    width: 180px;
+  }
+
+  #rodape div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+/* // Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home {
+    margin-top: 50px;
+  }
+
+  .home ul li {
+    width: 150px;
+  }
+
+  .detalhes h1 {
+    font-size: 1.7em;
+  }
+  img.curiosidade {
+    margin: 0 auto;
+    width: 105px;
+  }
+}
+
+/* // Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .home {
+    margin-top: 50px;
+  }
+  .detalhes h1 {
+    font-size: 1.7em;
+  }
+  img.curiosidade {
+    margin: 0 1px;
+    width: 140px;
+  }
+}
+
+/* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+  .home {
+    margin-top: 50px;
+  }
+  .detalhes h1 {
+    font-size: 2em;
+  }
+  img.curiosidade {
+    margin: 0 2px;
+    width: 170px;
+  }
+}
