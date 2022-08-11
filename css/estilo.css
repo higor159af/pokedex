@@ -113,7 +113,7 @@ ul {
 .detalhes h1 {
   font-weight: 900;
   color: rgb(0, 0, 0);
-  font-family:  Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .detalhes h2 {
@@ -132,7 +132,7 @@ ul {
   padding: 10px;
 }
 
-.curiosidade{
-float: right;
-margin: 0 7px;
+.curiosidade {
+  float: right;
+  margin: 0 7px;
 }
