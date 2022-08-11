@@ -136,3 +136,24 @@ ul {
   float: right;
   margin: 0 7px;
 }
+
+/* rodape */
+
+#rodape{
+  background: rgb(0, 60, 255);
+  padding: 10px;
+}
+
+#rodape a{
+  color: #fff;
+}
+
+#rodape img{
+transform: rotatey(180deg);
+}
+
+#rodape i{
+  margin: 0 10px;
+  font-size: 2em;
+}
+
